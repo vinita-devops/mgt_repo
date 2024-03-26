@@ -15,7 +15,7 @@ on:
       IsRecoveyMode:
         description: 'Please cehck if it is Recovery Mode'
         required: true  
-        type: bool   
+        type: boolean   
 jobs:
     configure-task:
        runs-on: ubuntu
