@@ -7,13 +7,13 @@ on:
         description: "Please enter Cluster Name"
         required: true
       namespace:
-        description: "Please enter 'Namespace Name"
+        description: "Please enter Namespace Name"
         required: false
       efs_id:
         description: "Please enter EFS Id"
         required: true
       IsRecoveyMode:
-        description: 'Please cehck if it is Recovery Mode'
+        description: "Please cehck if it is Recovery Mode"
         required: true  
         type: boolean   
 jobs:
