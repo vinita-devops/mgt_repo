@@ -16,3 +16,9 @@ on:
         description: 'Please cehck if it is Recovery Mode'
         required: true  
         type: bool   
+jobs:
+    configure-task:
+       runs-on: ubuntu
+       steps:
+        - name: test
+          run: echo "hello"
